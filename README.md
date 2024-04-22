@@ -12,15 +12,16 @@ This repository contains a Python script designed for efficient extraction of ma
 ### Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/json-url-extractor.git
+   git clone https://github.com/asharm0662/serif_json-url-extractor.git
    ```
 2. **Install the required Python package:**
    ```bash
-   pip install ijson
+   cd <location to repo>
+   pip install -r requirements.txt
    ```
 3. **Usage**
    ```bash
-   python extract_urls.py <input_file> <output_file>
+   python extract_urls.py <input_file_path> <output_file_path>
    ```
    ```bash
    python extract_urls.py large_input.json output_urls.csv
